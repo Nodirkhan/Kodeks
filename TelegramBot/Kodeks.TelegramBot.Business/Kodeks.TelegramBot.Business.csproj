@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable
+	</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kodeks.TelegramBot.Domain\Kodeks.TelegramBot.Domain.csproj" />
+    <ProjectReference Include="..\Kodeks.TelegramBot.Infrastructure\Kodeks.TelegramBot.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
